@@ -14,7 +14,6 @@ namespace RimLua
         {
             doCloseX = true;
             closeOnClickedOutside = true;
-            closeOnEscapeKey = true;
             forcePause = true;
             draggable = true;
         }

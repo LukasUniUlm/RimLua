@@ -37,31 +37,31 @@ namespace RimLua.Terminal
         //Messaging
         public void Message(object message)
         {
-            Messages.Message(message.ToString(), MessageSound.Standard);
+            Messages.Message(message.ToString(), new MessageTypeDef());
         }
         public void MessageGood(object message)
         {
-            Messages.Message(message.ToString(), MessageSound.Benefit);
+            Messages.Message(message.ToString(), new MessageTypeDef());
         }
         public void MessageBad(object message)
         {
-            Messages.Message(message.ToString(), MessageSound.SeriousAlert);
+            Messages.Message(message.ToString(), new MessageTypeDef());
         }
         public void MessageSilent(object message)
         {
-            Messages.Message(message.ToString(), MessageSound.Silent);
+            Messages.Message(message.ToString(), new MessageTypeDef());
         }
         public void Letter(object label, object message)
         {
-            Find.LetterStack.ReceiveLetter(label.ToString(), message.ToString(), LetterDefOf.Good);
+            Find.LetterStack.ReceiveLetter(label.ToString(), message.ToString(), LetterDefOf.NegativeEvent);
         }
         public void LetterBad(object label, object message)
         {
-            Find.LetterStack.ReceiveLetter(label.ToString(), message.ToString(), LetterDefOf.BadNonUrgent);
+            Find.LetterStack.ReceiveLetter(label.ToString(), message.ToString(), LetterDefOf.ThreatSmall);
         }
         public void LetterVeryBad(object label, object message)
         {
-            Find.LetterStack.ReceiveLetter(label.ToString(), message.ToString(), LetterDefOf.BadUrgent);
+            Find.LetterStack.ReceiveLetter(label.ToString(), message.ToString(), LetterDefOf.ThreatBig);
         }
         public void LetterCustom(object label, object message, string letterdef)
         {

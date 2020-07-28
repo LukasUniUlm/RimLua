@@ -32,10 +32,9 @@ namespace RimLua
             contentRect.yMax -= 20f;
             var style = new GUIStyle(Text.CurTextFieldStyle) //Construct our GUIStyle
             {
-                alignment = TextAnchor.UpperLeft,
                 wordWrap = true
             };
-            if (Resources.CourierNew) //Implicit conversion to bool
+            if (Resources.CourierNew != null) //Implicit conversion to bool
             {
                 style.font = Resources.CourierNew;
             }
@@ -61,7 +60,7 @@ namespace RimLua
             CompLua luaComp = SelThing.TryGetComp<CompLua>();
             luaComp.code = textInTerminal;
             luaComp.UpdateCode();
-            Messages.Message("LuaSaveSuccessful".Translate(), MessageSound.Standard);
+            Messages.Message("LuaSaveSuccessful".Translate(), new MessageTypeDef());
         }
     }
     public class ITab_Out : ITab

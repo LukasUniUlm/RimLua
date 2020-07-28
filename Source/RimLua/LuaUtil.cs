@@ -68,7 +68,7 @@ namespace RimLua
             if (lastLetterReceivedTick + 240 < abs  //So it doesnt spam the letterstack
                 || lastLetterReceivedTick > abs) //So when the game reloads with a different ticksabs it can get back up again
             {
-                Find.LetterStack.ReceiveLetter(label, "LuaErrorContent".Translate(lookTarget.Cell, message), LetterDefOf.BadNonUrgent, lookTarget);
+                Find.LetterStack.ReceiveLetter(label, "LuaErrorContent".Translate(lookTarget.Cell, message), LetterDefOf.NegativeEvent, lookTarget);
                 lastLetterReceivedTick = abs;
             }
         }

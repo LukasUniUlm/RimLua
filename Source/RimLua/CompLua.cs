@@ -1,15 +1,11 @@
-﻿using NLua;
-using NLua.Exceptions;
-using RimWorld;
-using System;
-using System.Threading;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using NLua;
+using RimLua.Terminal;
+using RimWorld;
 using UnityEngine;
 using Verse;
-using RimLua.Terminal;
-using System.Reflection;
 
 namespace RimLua
 {
@@ -188,7 +184,7 @@ namespace RimLua
                     }
                     yield return new Command_Action()
                     {
-                        action = () => func.Call(),
+                        //action = () => func.Call(),
                         defaultLabel = "LuaButton".Translate(i),
                         defaultDesc = "LuaButton_Desc".Translate(str),
                         icon = ContentFinder<Texture2D>.Get("Things/Mote/ColonistAttacking"),

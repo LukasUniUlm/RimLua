@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RL>
+<Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>LuaProgrammableNode</defName>
     <label>logic node</label>
@@ -39,15 +39,14 @@
     </inspectorTabs>
     <building>
       <shipPart>true</shipPart>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
     </building>
     <costList>
       <Steel>600</Steel>
-      <Component>16</Component>
+      <ComponentIndustrial>16</ComponentIndustrial>
       <AIPersonaCore>1</AIPersonaCore>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
-    <designationHotkey>Misc3</designationHotkey>
+    <designationHotKey>Misc3</designationHotKey>
   </ThingDef>
-</RL>
+</Defs>

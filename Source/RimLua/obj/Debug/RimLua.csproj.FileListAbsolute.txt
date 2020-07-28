@@ -1,9 +1,13 @@
-D:\TUNAN\Backups\EverythingElse\RimWorld\Mods\_Project RimFactory\Assemblies\RimLua.dll
-D:\TUNAN\Backups\EverythingElse\RimWorld\Mods\_Project RimFactory\Source\RimLua\obj\Debug\RimLua.csprojResolveAssemblyReference.cache
-D:\TUNAN\Backups\EverythingElse\RimWorld\Mods\_Project RimFactory\Source\RimLua\obj\Debug\RimLua.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\_Project RimFactory\Assemblies\RimLua.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\_Project RimFactory\Source\RimLua\obj\Debug\RimLua.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\_Project RimFactory\Source\RimLua\obj\Debug\RimLua.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS] RimLua\Assemblies\RimLua.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS] RimLua\Source\RimLua\obj\Debug\RimLua.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS] RimLua\Source\RimLua\obj\Debug\RimLua.dll
+D:/TUNAN/Backups/EverythingElse/RimWorld/Mods/_Project RimFactory/Assemblies/RimLua.dll
+D:/TUNAN/Backups/EverythingElse/RimWorld/Mods/_Project RimFactory/Source/RimLua/obj/Debug/RimLua.csprojResolveAssemblyReference.cache
+D:/TUNAN/Backups/EverythingElse/RimWorld/Mods/_Project RimFactory/Source/RimLua/obj/Debug/RimLua.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/_Project RimFactory/Assemblies/RimLua.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/_Project RimFactory/Source/RimLua/obj/Debug/RimLua.csprojResolveAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/_Project RimFactory/Source/RimLua/obj/Debug/RimLua.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/[SS] RimLua/Assemblies/RimLua.dll
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/[SS] RimLua/Source/RimLua/obj/Debug/RimLua.csprojResolveAssemblyReference.cache
+C:/Program Files (x86)/Steam/steamapps/common/RimWorld/Mods/[SS] RimLua/Source/RimLua/obj/Debug/RimLua.dll
+/home/lukas/.local/share/Steam/steamapps/common/RimWorld/Mods/RimLua/Source/RimLua/obj/Debug/RimLua.csprojAssemblyReference.cache
+/home/lukas/.local/share/Steam/steamapps/common/RimWorld/Mods/RimLua/Source/RimLua/obj/Debug/RimLua.csproj.CoreCompileInputs.cache
+/home/lukas/.local/share/Steam/steamapps/common/RimWorld/Mods/RimLua/Source/RimLua/obj/Debug/RimLua.dll
+/home/lukas/.local/share/Steam/steamapps/common/RimWorld/Mods/RimLua/Assemblies/RimLua.dll
